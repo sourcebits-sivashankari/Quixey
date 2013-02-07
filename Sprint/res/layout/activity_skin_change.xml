@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkinChangeActivity" 
+    android:background="#736F6E"
+    >
+    
+    <ImageView
+        style="?imageStyle"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bg_image"
+        />
+    
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="7dp"
+            android:id="@+id/search_frame">
+<!-- 
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_bar"
+                android:drawablePadding="8dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:singleLine="true" >
+                <requestFocus />
+            </EditText> -->
+            
+             <EditText
+        style="?textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:hint="Type text here"
+        android:padding="10dp"
+        android:id="@+id/text"
+        />
+
+            <ImageButton
+                 style="?buttonStyle"
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/ic_menu_search_holo_light" />
+        </FrameLayout>
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered By QUIXEY"
+        android:layout_below="@+id/search_frame"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textColor="#6698FF"
+        android:textSize="15sp"
+        />
+    
+    <!-- <Button 
+        
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_margin="4dp"
+         android:id="@+id/search"
+		 android:layout_alignParentRight="true"         
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+		 android:text="Search" 
+		 
+		         
+     />
+ -->
+   
+        
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/how_to_use"
+        android:padding="5dp"
+         android:layout_above="@+id/swipe"
+        android:layout_centerHorizontal="true"
+        android:text="How it works"
+        android:textSize="15dp"
+        style="?textViewStyle"
+        />
+
+    <TextView
+        android:id="@+id/swipe"
+        style="?textViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_marginTop="27dp"
+        android:padding="5dp"
+        android:text="Swipe"
+        android:textSize="15dp" />
+     
+</RelativeLayout>
