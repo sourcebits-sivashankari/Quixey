@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="pageMargin" format="reference|dimension" />
+    <attr name="textTitle" format="reference|dimension" />
+    <attr name="textSubheader" format="reference|dimension" />
+    
+    <attr name="textStyle" format="reference" />
+    <attr name="buttonStyle" format="reference" />
+    <attr name="textViewStyle" format="reference" />
+    <attr name="imageStyle" format="reference" />
+
+</resources>

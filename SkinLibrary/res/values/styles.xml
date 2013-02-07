@@ -1,0 +1,65 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="CodeFont" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    
+    <style name="ImageView">
+     </style>
+    
+    <style name="ImageView.Blue">
+        <item name="android:src">@drawable/sprint</item> 
+    </style>
+    
+        <style name="ImageView.Green">
+        <item name="android:src">@drawable/vodafone</item> 
+    </style>
+    
+    <style name="GreenText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#00FF00</item>
+    </style>
+    
+    <style name="CodeFont.Green"  parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/rounde_border_light</item>
+    </style>
+
+    <style name="CodeFont.Blue"  parent="@android:style/Widget.EditText">
+         <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/rounde_border_light</item>
+    </style>
+    
+      <style name="TextView.Green"  parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="TextView.Blue"  parent="@android:style/Widget.EditText">
+         <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    
+    <style name="Button.Blue">
+        <item name="android:background">@color/blue</item>
+        <item name="android:textColor">@android:color/black</item>
+   </style>
+   
+     <style name="Button.Green">
+          <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@color/green</item>
+   </style>
+</resources>
